@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//  Ruta de Inicio (Front-End)
+Route::get('/', 'FrontController@index');
 
 Auth::routes();
 
