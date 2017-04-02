@@ -30,6 +30,6 @@ class CreateValoracionesTable extends Migration
      */
     public function down()
     {
-        Shema::drop('valoraciones');
+        Schema::drop('valoraciones');
     }
 }

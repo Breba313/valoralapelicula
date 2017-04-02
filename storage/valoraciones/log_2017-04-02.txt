@@ -1,0 +1,60 @@
+[2017-04-02 20:05:07.384186] [info] Datos de la valoracion
+    id: 5
+    id_pelicula: 1
+    id_user: 1
+    fecha: Carbon\Carbon::__set_state(array(
+         'date' => '2017-04-02 20:05:07.000000',
+         'timezone_type' => 3,
+         'timezone' => 'UTC',
+    ))
+    valoracion: '6'
+    created_at: '2017-04-02 19:37:19'
+    updated_at: '2017-04-02 20:05:07'
+[2017-04-02 20:05:32.885643] [info] Datos de la valoracion
+    id: 3
+    id_pelicula: 2
+    id_user: 1
+    fecha: Carbon\Carbon::__set_state(array(
+         'date' => '2017-04-02 20:05:32.000000',
+         'timezone_type' => 3,
+         'timezone' => 'UTC',
+    ))
+    valoracion: '4'
+    created_at: NULL
+    updated_at: '2017-04-02 20:05:32'
+[2017-04-02 20:06:47.838932] [info] Datos de la valoracion
+    id: 6
+    id_pelicula: 4
+    id_user: 1
+    fecha: Carbon\Carbon::__set_state(array(
+         'date' => '2017-04-02 20:06:47.000000',
+         'timezone_type' => 3,
+         'timezone' => 'UTC',
+    ))
+    valoracion: '4'
+    created_at: '2017-04-02 20:06:12'
+    updated_at: '2017-04-02 20:06:47'
+[2017-04-02 20:07:29.209297] [info] Datos de la valoracion
+    id: 2
+    id_pelicula: 5
+    id_user: 1
+    fecha: Carbon\Carbon::__set_state(array(
+         'date' => '2017-04-02 20:07:29.000000',
+         'timezone_type' => 3,
+         'timezone' => 'UTC',
+    ))
+    valoracion: '8'
+    created_at: NULL
+    updated_at: '2017-04-02 20:07:29'
+[2017-04-02 20:09:18.396543] [info] Datos de la valoracion
+    id: 2
+    id_pelicula: 5
+    id_user: 1
+    fecha: Carbon\Carbon::__set_state(array(
+         'date' => '2017-04-02 20:09:18.000000',
+         'timezone_type' => 3,
+         'timezone' => 'UTC',
+    ))
+    valoracion: 0
+    created_at: NULL
+    updated_at: '2017-04-02 20:09:18'
