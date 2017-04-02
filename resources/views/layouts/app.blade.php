@@ -10,15 +10,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <title>Valora la Pelicula</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Movie_store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="{{ url('/css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
     <link href="{{ url('/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
     <link href="{{ url('/css/font-awesome.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" media="all" />
     <!-- start plugins -->
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin JavaScript -->
+    <script type="text/javascript" src="{{ url('js/jquery-1.11.1.min.js') }}"></script>
     <script src="{{ url('js/responsiveslides.min.js') }}"></script>
     <script>
         $(function () {
@@ -36,15 +38,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="container">
     <div class="container_wrap">
         <div class="header_top">
-            <div class="col-sm-3 logo"><a href="{{ url('/') }}"><h1 class="m_2">Valora la Pelicula</h1><img src="images/rating.png" alt=""/></a></div>
+            <div class="col-sm-3 logo"><a href="{{ url('/') }}"><h1 class="m_2">Valora la Pelicula</h1><img src="images/rating1.png" alt=""/></a></div>
             <div class="col-sm-6 nav">
                 <ul>
-                    <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="comic"><a href="movie.html"> </a></span></li>
-                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="movie"><a href="movie.html"> </a> </span></li>
-                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="video"><a href="movie.html"> </a></span></li>
-                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="game"><a href="movie.html"> </a></span></li>
-                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="tv"><a href="movie.html"> </a></span></li>
-                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="more"><a href="movie.html"> </a></span></li>
+                    <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="comic"><a href="{{ url('/') }}"> </a></span></li>
+                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="movie"><a href="{{ url('/') }}"> </a> </span></li>
+                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="video"><a href="{{ url('/') }}"> </a></span></li>
+                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="game"><a href="{{ url('/') }}"> </a></span></li>
+                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="tv"><a href="{{ url('/') }}"> </a></span></li>
+                    <li><span class="simptip-position-bottom simptip-movable" data-tooltip="more"><a href="{{ url('/') }}"> </a></span></li>
                 </ul>
             </div>
             <div class="col-sm-3 header_right">
@@ -89,31 +91,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="gp-container">
                 <div class="footer-widget footer-1">
                     <div class="wpb_wrapper">
-                        <img src="images/f_logo.png" alt=""/>
+                        <img src="images/rating1.png" alt=""/>
                     </div>
                     <br>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-                    <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                    <p>
+                        La calificación Representa el porcentaje de críticas críticas profesionales que son positivas para un determinado filme o programa de televisión.</p>
                 </div>
                 <div class="footer_box">
                     <div class="col_1_of_3 span_1_of_3">
-                        <h3>Categories</h3>
+                        <h3>Categorias</h3>
                         <ul class="first">
-                            <li><a href="#">Dance</a></li>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Specials</a></li>
+                            <li><a href="#">Accion</a></li>
+                            <li><a href="#">Ciencia Ficcion</a></li>
+                            <li><a href="#">Comedia</a></li>
+                            <li><a href="#">Romance</a></li>
                         </ul>
                     </div>
                     <div class="col_1_of_3 span_1_of_3">
-                        <h3>Information</h3>
+                        <h3></h3>
                         <ul class="first">
-                            <li><a href="#">New products</a></li>
-                            <li><a href="#">top sellers</a></li>
-                            <li><a href="#">Specials</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="col_1_of_3 span_1_of_3">
-                        <h3>Follow Us</h3>
+                        <h3>Siguenos</h3>
                         <ul class="first">
                             <li><a href="#">Facebook</a></li>
                             <li><a href="#">Twitter</a></li>
@@ -130,5 +133,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </footer>
 </div>
+<!-- javascripts -->
+
+<!-- bootstrap -->
+<script src="{{ url('js/bootstrap.min.js') }}"></script>
+
+<!-- Datatables -->
+<script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+
+@section('custom_jscripts')
+@show
 </body>
 </html>
