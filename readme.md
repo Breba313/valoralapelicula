@@ -1,26 +1,31 @@
-# Laravel PHP Framework
+# Prueba la Pelicula
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Es Proyecto creado en el framework Laravel 5.3, con base de datos en MySQL con el objetivo de cumplir prueba técnica con las siguientes especificaciones:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+● Es imprescindible el uso de un framework MVC PHP.
+● Es imprescindible el uso de GIT como repositorio de código.
+● Es imprescindible el uso de bootstrap u otro framework de frontend.
+● Los datos de deben almacenar en una base de datos MySQL.
+● Se debe usar el paquete de composer katzgrau/klogger para guardar en un fichero
+de texto cada vez que se realiza una valoración.
+● Debemos guardar datos de los clientes, películas y valoraciones (no significa que
+sean obligatoriamente 3 tablas)
+○ Clientes
+ - Nombre
+ - Apellidos
+○ Películas
+   - Título
+   - Categoría (Acción, ciencia ficción, thriller, etc.)
+○ Valoraciones
+   - Valoración (de 0 a 10)
+   - Fecha
+● Únicamente es obligatorio el CRUD de valoraciones. Los clientes y películas pueden
+ser insertados directamente en la base de datos.
+● Se debe poder listar las películas, hayan sido valoradas por el cliente o no,
+incluyendo la valoración del cliente (en el caso de que la haya valorado), el número
+de clientes que han valorado la película y la valoración media de todos los clientes.
+● Un cliente puede cambiar la valoración que le ha dado a una película.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
